@@ -9,58 +9,57 @@
         <!--div container geral-->
         <div>
             <!--cabeçalho-->
-            <header>
-                <img src="https://ituring.com.br/favicon.ico" alt="Turingwash">
+            <header class="header">
+                <img src="https://ituring.com.br/favicon.ico" alt="Turingwash" class="header__logo">
 
-                <a href="./meuscarros.html"> Meus carros</a>
-                <a>Minhas lavagens</a>
-                <button>Sair</button>
+                <a href="./meuscarros.html" class="header__link-cars"> Meus carros</a>
+                <a class="header__link-washes">Minhas lavagens</a>
+                <button class="header__leave-button">Sair</button>
             </header>
-            <main>
-                <section>
-                    <h1>Lavadores disponíveis próximos de você...</h1>
+            <main class="main-content">
+                <section class="title-container">
+                    <h1 class="title-container__title">Lavadores disponíveis próximos de você...</h1>
                 </section>
-                <section>
-                    <span>Lavar Nissan Kicks</span>
-                    <span>Ordenar por proximidade</span>
+                <section class="ordination-container">
+                    <span class="ordination-container__car">Lavar Nissan Kicks</span>
+                    <span class="ordination-container__ordinator">Ordenar por proximidade</span>
                 </section>
-                <section>
+                <section class="washers-list">
                 <!--Lavadores-->
-                    <article>
-                        <div>
+                    <article class ="washers-container">
+                        <div class="washer-personal-info">
                         <!--Inofrmações Pessoais-->
-                            <img src="https://ituring.com.br/favicon.ico" alt="Turingwash">
-                            <h2>João Pereira</h2>                         
+                            <img src="https://ituring.com.br/favicon.ico" alt="Turingwash" class="washers-personal-info__washer-photo">
+                            <h2 class="washers-personal-info__washer-name">João Pereira</h2>                         
                         </div>
-                        <div>
+                        <div class="washer-professional-info">
                         <!--Informações Profissionais-->
-                            <h3>Nota 4.5 (908 avaliações)</h3>
-                            <h3>R$ 80</h3>
+                            <h3 class="washer-professional-info__rating">Nota 4.5 (908 avaliações)</h3>
+                            <h3 class="washer-professional-info__price">R$ 80</h3>
                         </div>
-                        <div>
+                        <div class="washer-actions">
                         <!--Funcionalidades-->
-                            <a href="">Ver avaliações</a>
-                            <a href="">Lavar meu carro</a>
+                            <button class="washer-actions__see-ratings-button">Ver avaliações</button>
+                            <button class="washer-actions__wash-car-button">Lavar meu carro</button>
                         </div>
-
                     </article>
                 </section>
             </main>
-            <footer>
-                <div>
-                    <img src="https://ituring.com.br/favicon.ico" alt="Turingwash">
+            <footer class="footer">
+                <div class="footer-logo-container">
+                    <img class ="footer-logo-container__logo" src="https://ituring.com.br/favicon.ico" alt="Turingwash">
                 </div>
-                <div>
+                <div class="footer-links-container">
                 <!--Links de navegação-->
-                    <a href="">Sobre</a>
-                    <a href="">FAQ</a>
-                    <a href="">Contato</a>
-                    <a href="">Termos de uso</a>    
+                    <a class="footer-links-container__link" href="">Sobre</a>
+                    <a class="footer-links-container__link" href="">FAQ</a>
+                    <a class="footer-links-container__link" href="">Contato</a>
+                    <a class="footer-links-container__link" href="">Termos de uso</a>    
                 </div>
-                <div>
+                <div class="footer-copywright-container">
                 <!--Redes sociais e copywirght-->
-                    <a href="">@ituringwash</a>
-                    <p>2022 TuringWash. Todos os direitos reservados</p>
+                    <a class="footer-copywright-container__instagram-link" href="">@ituringwash</a>
+                    <p class="footer-copywright-container__copywright">2022 TuringWash. Todos os direitos reservados</p>
                 </div>
             </footer>
         </div>
