@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+}
+
+/*header */
+.header{
+    background-color: #BCF7FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+}
+.header-actions{
+    display: flex;
+    column-gap: 18px;
+}
+.header-actions__link, .header-actions__leave-button{
+    font-weight: bold;
+}
+.header-actions__leave-button{
+    border: none;
+    padding: 4px;
+    background-color: #8FF2FF;
+}
+/*main-content*/
+.main-content{
+    background-color: #EAF7FF;
+}
+/*title-container*/
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+/*ordination-container*/
+.ordination-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+.ordination-container-car__car-selection, .ordination-container-ordinator__washer-ordination{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+}
+/*washers-list*/
+.washers-list{
+    padding: 16px 70px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+/*washer-container*/
+.washer-container{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.washer-personal-info{
+    padding: 0;
+    display: flex;
+}
+.washer-personal-info__washer-photo{
+    width: 80px;
+    height: 80px;
+    margin: 16px;
+}
+.washer-personal-info__washer-name{
+    margin: 0;
+}
+.washer-prof-infos-and-actions{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.washer-professional-info{
+    display: flex;
+    column-gap: 30px;
+}
+.washer-professional-info__rating{
+    margin: 0px;
+}
+.washer-professional-info__price{
+    background-color: #DCFCFE;
+    margin: 0;
+    padding: 4px;
+}
+.washer-actions{
+    padding: 10px;
+}
+
+.washer-actions__see-ratings-button{
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+}
+.washer-actions__wash-car-button{
+    background-color: #8FF2FF;
+    font-size: 18px;
+    border: none;
+}
+
+
+    /*cars-list*/
+    .cars-list{
+    padding: 16px 70px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+/*car-container*/
+.car-container{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 100px;
+}
+.car-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding: 10px;
+}
+.car-info__car-name,.car-info__car-age{
+    margin: 0;
+}
+.car-actions{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 8px;
+}
+.car-actions__delete-car-button{
+    border: none;
+    background-color: #FF9B9B;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 4px;
+}
+/*add-car-container*/
+.add-car-container{
+    display: flex;
+    justify-content: center;
+}
+.add-car-container__add-button{
+    border: none;
+    background-color: #8FF2FF;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/*Footer*/
+.footer{
+    background-color: #BCF7FF;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo-container{
+    padding:10px;
+}
+.footer-logo-container__logo{
+    height: 45px;
+    width: 45px;
+}
+.footer-links-container{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    row-gap: 2px;
+}
+.footer-links-container__link{
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+}
+.footer-copywright-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+    padding: 5px;
+}
+.footer-copywright-container__copywright{
+    font-size: 6px;
+}

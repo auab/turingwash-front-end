@@ -3,6 +3,7 @@
 <html lang="pt-BR">
     <head>
         <title>Pedir Lavagem</title>
+        <link rel="stylesheet" href="./styles/styles.css">
         <link rel="icon" href="https://ituring.com.br/favicon.ico">
     </head>    
     <body>
@@ -10,10 +11,10 @@
         <div>
             <!--cabeçalho-->
             <header class="header">
-                <img src="https://ituring.com.br/favicon.ico" alt="Turingwash" class="header__logo">
+                <img src="./images/turingwash-logo.svg" alt="Turingwash" class="header__logo">
                 <div class="header-actions">
-                    <a href="./meuscarros.html" class="header-actions__link-cars"> Meus carros</a>
-                    <a class="header-actions__link-washes">Minhas lavagens</a>
+                    <a href="./meuscarros.html" class="header-actions__link"> Meus carros</a>
+                    <a class="header-actions__link">Minhas lavagens</a>
                     <button class="header-actions__leave-button">Sair</button>
                 </div>
             </header>
@@ -23,11 +24,22 @@
                 </section>
                 <section class="cars-list">
                 <!--Carros-->
-                    <article class="car-conteiner">
+                    <article class="car-container">
                         <div class="car-info">
                         <!--Inofrmações Carro-->
-                            <h2 class="car-info__car-name">Nissan Kicks</h2>        
-                            <h3 class="car-info__car-age">2018</h3>                 
+                            <h3 class="car-info__car-name">Nissan Kicks</h3>        
+                            <h4 class="car-info__car-age">2018</h4>                 
+                        </div>
+                        <div class="car-actions">
+                        <!--Funcionalidades-->
+                            <button class="car-actions__delete-car-button">Excluir carro</button>
+                        </div>
+                    </article>
+                    <article class="car-container">
+                        <div class="car-info">
+                        <!--Inofrmações Carro-->
+                            <h3 class="car-info__car-name">Chevrolet Onix</h3>        
+                            <h4 class="car-info__car-age">2015</h4>                 
                         </div>
                         <div class="car-actions">
                         <!--Funcionalidades-->
@@ -42,7 +54,7 @@
             </main>
             <footer class="footer">
                 <div class="footer-logo-container">
-                    <img class ="footer-logo-container__logo" src="https://ituring.com.br/favicon.ico" alt="Turingwash">
+                    <img class ="footer-logo-container__logo" src="./images/turingwash-logo.svg" alt="Turingwash">
                 </div>
                 <div class="footer-links-container">
                 <!--Links de navegação-->
